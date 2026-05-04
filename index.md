@@ -1,6 +1,3 @@
-
-# Helios Privacy Policy
-
 **Effective Date: May 4, 2026**
 
 This Privacy Policy describes the information we collect when you use Helios mobile applications, websites, and products. It also explains how we store, use, transfer, and delete your information. Our goal is not only to comply with privacy laws and regulations, but also to earn and maintain your trust.
