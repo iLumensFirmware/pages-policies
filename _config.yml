@@ -1,4 +1,6 @@
-title: ''
+title: Helios
+tagline: by iLumens
+description: Helios by iLumens
 remote_theme: "jekyll/minima@1e8a445"
 
 plugins:
