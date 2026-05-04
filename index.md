@@ -10,7 +10,6 @@ Helios does not display advertisements in our mobile app or on our devices. Any 
 
 Device information is used to identify crash patterns that may be specific to certain devices or operating systems.
 
-
 ### Device Time
 
 *If you opt out, you will need to manually set the lamp time. Bluetooth scan functionality requires device time under legitimate interest and will be maintained.*
@@ -39,20 +38,48 @@ Crashlytics will only be enabled if you have opted in to both Crashlytics and De
 
 When the app is running, the lamp state data is constantly changing and logs as we do operations. The data is only used for crash reporting and is only collected at the time of a crash.
 
-#### Crash Report Data Details
+## Crash Report Data Details
 
 The following data may be collected at the time of a crash:
 
-- **Device Model & OS Version**: Used to identify crash patterns specific to certain devices or operating systems.
-- **App Version**: Helps us track issues related to specific releases. If you report a bug on an older version, we may advise you to update the app if the issue has been fixed.
-- **Lamp Version(s)**: The firmware version of connected lamps, collected only if iLumens lamps are connected at the time of the crash. This helps identify compatibility issues.
-- **Scanned iLumens Bluetooth Devices**: During a Bluetooth scan, we log the name, ID, and RSSI (signal strength) of detected iLumens devices. The app connects to a maximum of three iLumens devices at a time. This information is only collected at the time of a crash and helps diagnose connection issues.
-- **Lamp Identifiers**: The MAC address and user-assigned name of your lamp, collected only at the time of a crash, to help track your lamp during troubleshooting.
-- **Schedule Data**: If your lamp has active schedules, we log them to replicate issues in-house. We do not track inactive schedules or your usage of them. This is only collected at the time of a crash.
-- **LED Data**: The current LED settings (brightness and color) at the time of the crash. We do not track your history of LED usage.
-- **Lamp State Data**: Whether your lamp is on or off, if a schedule is active, and if the lamp believes it is day or night based on the schedule. We also log whether the current LED settings are set manually or by a schedule, and if the night light or motion sensor is active. This data is only collected at the time of a crash.
-- **Time of Crash**: The exact time of the crash and the time your phone sends the report, which is important for diagnosing scheduling issues.
-- **Stack Traces**: Detailed information about the app's state at the time of the crash, including the sequence of function calls. Stack traces do not contain any identifiable data beyond what is listed above.
+### Device Model & OS Version
+
+Used to identify crash patterns specific to certain devices or operating systems.
+
+### App Version
+
+Helps us track issues related to specific releases. If you report a bug on an older version, we may advise you to update the app if the issue has been fixed.
+
+### Lamp Version(s) 
+
+The firmware version of connected lamps, collected only if iLumens lamps are connected at the time of the crash. This helps identify compatibility issues.
+
+### Scanned iLumens Bluetooth Devices
+
+During a Bluetooth scan, we log the name, ID, and RSSI (signal strength) of detected iLumens devices. The app connects to a maximum of three iLumens devices at a time. This information is only collected at the time of a crash and helps diagnose connection issues.
+
+### Lamp Identifiers
+
+The MAC address and user-assigned name of your lamp, collected only at the time of a crash, to help track your lamp during troubleshooting.
+
+### Schedule Data
+
+If your lamp has active schedules, we log them to replicate issues in-house. We do not track inactive schedules or your usage of them. This is only collected at the time of a crash.
+
+### LED Data
+The current LED settings (brightness and color) at the time of the crash. We do not track your history of LED usage.
+
+### Lamp State Data
+
+Whether your lamp is on or off, if a schedule is active, and if the lamp believes it is day or night based on the schedule. We also log whether the current LED settings are set manually or by a schedule, and if the night light or motion sensor is active. This data is only collected at the time of a crash.
+
+### Time of Crash
+
+The exact time of the crash and the time your phone sends the report, which is important for diagnosing scheduling issues.
+
+### Stack Traces*
+
+Detailed information about the app's state at the time of the crash, including the sequence of function calls. Stack traces do not contain any identifiable data beyond what is listed above.
 
 ## Data Retention
 
@@ -62,16 +89,16 @@ Crashlytics automatically deletes all crash report data every 6–8 months.
 
 ## Requesting & Deleting Your Data
 
-### In-App Data
+#### In-App Data
 
 For security reasons, the raw data stored on your device cannot be directly viewed by users. This protects our encryption methods in case your device is compromised. However, nearly all data stored on your device is displayed within the app, including lamp names, schedules, and your privacy settings. Some meta-data is stored for functional purposes only and is not user-facing.
 
-### Crashlytics Data
+#### Crashlytics Data
 
-#### Deleting Crashlytics Data
+##### Deleting Crashlytics Data
 
 You can delete your Crashlytics data in-app with a single click. Additionally, whenever you disable Crashlytics, we automatically send a deletion request on your behalf. Crashlytics processes these requests within 24 hours and provides an estimated deletion date. All Crashlytics data is deleted after 6–8 months, regardless of requests.
 
-#### Requesting Your Crashlytics Data
+##### Requesting Your Crashlytics Data
 
 Due to the anonymization of data sent to Crashlytics, we may require additional information from you to process your request. For best results, do not disable Crashlytics before submitting your request. To request your data, go to Helios settings (cog icon at the top right of the home page), navigate to Feedback, and send us a message. We are committed to supporting your autonomy over your data and will assist you throughout the process.
