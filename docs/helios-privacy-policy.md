@@ -11,6 +11,8 @@ Helios complies with GDPR and CCPA. The policy below is a general policy of our 
 
 Helios does not display advertisements in our mobile app or on our devices. Any data collected is used solely for the operation of Helios and for troubleshooting purposes. Data required for Helios to function remains encrypted and stored locally on your device. When you delete the app, your data is deleted as well. Below is a summary of the data we collect and how it is used. These descriptions are also available in-app, where you can configure and modify your preferences at any time.
 
+Helios does not target nor intentionally collect information from minors, this includes any individuals under the age of 13, 16, and 18. 
+
 ### Device Model & Operating System (OS) Version
 
 *If you opt out, Crashlytics will be disabled.*
@@ -40,7 +42,10 @@ RSSI is a Bluetooth measure of signal strength. Helios uses it to connect your p
 
 Helios uses Crashlytics to collect information about your Helios system in the event of an error or crash. This is the only circumstance in which data is sent to Helios developers. Crashlytics is an optional feature; you can choose to allow or deny it when you first use the app. Crashlytics has its own privacy policy, but at Helios, we prioritize your privacy and have disabled as much of Crashlytics' data collection as possible, including Google Analytics.
 
-When sending data to Crashlytics, we include only the minimum details necessary to resolve issues. Any additional data collection would only occur if you contact us directly.
+### Crashlytics
+There are many services integrated into Firebase, including Google Analytics. Helios has disabled all but Crashlytics services in our Firebase configurations. Firebase has a [Privacy and Security Policy](https://firebase.google.com/support/privacy) that encompasses all their services, read Crashlytics specific details. 
+
+Crashlytics is a service run by Google's Firebase. It functions to send reports when Helios does what it is not supposed to. This can be a crash, internal error, etc. It sends custom logs written by Helios developers to a cloud instance where developers can see what is happening on the app. When sending data to Crashlytics, we include only the minimum details necessary to resolve issues. Any additional data collection would only occur if you contact us directly.
 
 Crashlytics will only be enabled if you have opted in to both Crashlytics and Device Model & OS collection. If either is disabled, Crashlytics will not be enabled, as Device Model & OS information is required for crash reports.
 
