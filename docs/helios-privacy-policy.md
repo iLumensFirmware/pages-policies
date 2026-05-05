@@ -3,7 +3,9 @@
 
 **Effective Date: May 4, 2026**
 
-This Privacy Policy describes the information we collect when you use Helios mobile applications, websites, and products. It also explains how we store, use, transfer, and delete your information. Our goal is not only to comply with privacy laws and regulations, but also to earn and maintain your trust.
+This Privacy Policy describes the information we collect when you use Helios mobile applications, websites, and products. It also explains how we store, use, transfer, and delete your information. Our goal is not only to comply with privacy laws and regulations, but also to earn and maintain your trust. 
+
+Helios complies with GDPR and CCPA. The policy below is a general policy of our system that adheres to GDPR, CCPA, VCDPA, UCPA, Play Store and App Store requirements. We have also outlined policy specific compliance details for enforcement agencies to review at will. 
 
 ## Information We Collect & How We Use It
 
