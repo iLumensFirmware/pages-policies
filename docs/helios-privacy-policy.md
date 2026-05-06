@@ -5,20 +5,49 @@
 
 This Privacy Policy describes the information we collect when you use Helios mobile applications, websites, and products. It also explains how we store, use, transfer, and delete your information. Our goal is not only to comply with privacy laws and regulations, but also to earn and maintain your trust. 
 
-Helios complies with GDPR and CCPA. The policy below is a general policy of our system that adheres to GDPR, CCPA, VCDPA, UCPA, Play Store and App Store requirements. We have also outlined policy specific compliance details for enforcement agencies to review at will. 
+## Compliance
+
+Helios complies with GDPR and CCPA. The policy below is a general policy of our system. We have also outlined policy specific compliance details for enforcement agencies to review at will. 
+
+- General Data Protection Regulation (GDPR) 
+- Children’s Online Privacy Protection Act (COPPA)
+- California Consumer Privacy Act (CCPA)
+- California Privacy Rights Act (CPRA)
+- Colorado Privacy Act (CPA)
+- Connecticut Data Privacy Act (CDPA)
+- Delaware Personal Data Privacy Act (DPDPA)
+- Florida Data Privacy and Security Act (FDPSA)
+- Indiana Consumer Data Protection Act (ICDPA)
+- Iowa Consumer Data Protection Act (ICDPA)
+- Kentucky Consumer Data Protection Act (KCDPA)
+- Maryland Online Data Privacy Act (MODPA)
+- Minnesota Consumer Data Privacy Act (MCDPA)
+- Montana Consumer Data Privacy Act (MCDPA)
+- Nebraska Data Privacy Act (NDPA)
+- New Hampshire Consumer Expectation of Privacy Act (NHCEPA)
+- New Jersey Personal Data Privacy Act (NJPDPA)
+- Oregon Consumer Privacy Act (OCPA)
+- Rhode Island Data Transparency and Privacy Protection Act (RIDTPPA)
+- Tennessee Information Protection Act (TIPA)
+- Texas Data Privacy and Security Act (TDPSA)
+- Utah Consumer Privacy Act (UCPA)
+- Virginia Consumer Data Protection Act (VCDPA)
 
 ## Information We Collect & How We Use It
 
 Helios does not display advertisements in our mobile app or on our devices. Any data collected is used solely for the operation of Helios and for troubleshooting purposes. Data required for Helios to function remains encrypted and stored locally on your device. When you delete the app, your data is deleted as well. Below is a summary of the data we collect and how it is used. These descriptions are also available in-app, where you can configure and modify your preferences at any time.
 
-Helios does not target nor intentionally collect information from minors, this includes any individuals under the age of 13, 16, and 18. 
+## Do we collect Children's data?
+
+Helios is designed for use by adults. Helios does not target nor intentionally collect information from any individuals under the age of 18. 
+- If you are under the age of 18, we request you not to share your data with us unless you have explicit consent from your parent or guardian before sharing your data with us. Upon request you will be required to proof this received prior consent;
+- Note to Parents of Children under the age of 18: we recommend you to monitor your children's use of our products, systems, product functionalities, applications in order to make sure that your child does not share personal data with us without asking your permission.
 
 ### Device Model & Operating System (OS) Version
 
 *If you opt out, Crashlytics will be disabled.*
 
 Device information is used to identify crash patterns that may be specific to certain devices or operating systems.
-
 
 ### Device Time
 
