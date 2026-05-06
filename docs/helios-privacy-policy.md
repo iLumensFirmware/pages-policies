@@ -7,31 +7,7 @@ This Privacy Policy describes the information we collect when you use Helios mob
 
 ## Compliance
 
-Helios complies with GDPR and CCPA. The policy below is a general policy of our system. We have also outlined policy specific compliance details for enforcement agencies to review at will. 
-
-- General Data Protection Regulation (GDPR) 
-- Children’s Online Privacy Protection Act (COPPA)
-- California Consumer Privacy Act (CCPA)
-- California Privacy Rights Act (CPRA)
-- Colorado Privacy Act (CPA)
-- Connecticut Data Privacy Act (CDPA)
-- Delaware Personal Data Privacy Act (DPDPA)
-- Florida Data Privacy and Security Act (FDPSA)
-- Indiana Consumer Data Protection Act (ICDPA)
-- Iowa Consumer Data Protection Act (ICDPA)
-- Kentucky Consumer Data Protection Act (KCDPA)
-- Maryland Online Data Privacy Act (MODPA)
-- Minnesota Consumer Data Privacy Act (MCDPA)
-- Montana Consumer Data Privacy Act (MCDPA)
-- Nebraska Data Privacy Act (NDPA)
-- New Hampshire Consumer Expectation of Privacy Act (NHCEPA)
-- New Jersey Personal Data Privacy Act (NJPDPA)
-- Oregon Consumer Privacy Act (OCPA)
-- Rhode Island Data Transparency and Privacy Protection Act (RIDTPPA)
-- Tennessee Information Protection Act (TIPA)
-- Texas Data Privacy and Security Act (TDPSA)
-- Utah Consumer Privacy Act (UCPA)
-- Virginia Consumer Data Protection Act (VCDPA)
+Helios complies with GDPR, COPPA and CCPA as well as individual USA state privacy and security acts. The policy below is a general policy of our system. We have also outlined policy specific compliance details for enforcement agencies to review at will. 
 
 ## Information We Collect & How We Use It
 
