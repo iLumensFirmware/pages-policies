@@ -37,7 +37,7 @@ Helios complies with GDPR and CCPA. The policy below is a general policy of our 
 
 Helios does not display advertisements in our mobile app or on our devices. Any data collected is used solely for the operation of Helios and for troubleshooting purposes. Data required for Helios to function remains encrypted and stored locally on your device. When you delete the app, your data is deleted as well. Below is a summary of the data we collect and how it is used. These descriptions are also available in-app, where you can configure and modify your preferences at any time.
 
-## Do we collect Children's data?
+### Children's data?
 
 Helios is designed for use by adults. Helios does not target nor intentionally collect information from any individuals under the age of 18. 
 - If you are under the age of 18, we request you not to share your data with us unless you have explicit consent from your parent or guardian before sharing your data with us. Upon request you will be required to proof this received prior consent;
