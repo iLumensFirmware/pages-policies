@@ -45,9 +45,10 @@ RSSI is a Bluetooth measure of signal strength. Helios uses it to connect your p
 
 ## Third-Party Services
 
+### Crashlytics
+
 Helios uses Crashlytics to collect information about your Helios system in the event of an error or crash. This is the only circumstance in which data is sent to Helios developers. Crashlytics is an optional feature; you can choose to allow or deny it when you first use the app. Crashlytics has its own privacy policy, but at Helios, we prioritize your privacy and have disabled as much of Crashlytics' data collection as possible, including Google Analytics.
 
-### Crashlytics
 There are many services integrated into Firebase, including Google Analytics. Helios has disabled all but Crashlytics services in our Firebase configurations. Firebase has a [Privacy and Security Policy](https://firebase.google.com/support/privacy) that encompasses all their services, read Crashlytics specific details. 
 
 Crashlytics is a service run by Google's Firebase. It functions to send reports when Helios does what it is not supposed to. This can be a crash, internal error, etc. It sends custom logs written by Helios developers to a cloud instance where developers can see what is happening on the app. When sending data to Crashlytics, we include only the minimum details necessary to resolve issues. Any additional data collection would only occur if you contact us directly.
@@ -70,6 +71,15 @@ The following data may be collected at the time of a crash:
 - **Lamp State Data**: Whether your lamp is on or off, if a schedule is active, and if the lamp believes it is day or night based on the schedule. We also log whether the current LED settings are set manually or by a schedule, and if the night light or motion sensor is active. This data is only collected at the time of a crash.
 - **Time of Crash**: The exact time of the crash and the time your phone sends the report, which is important for diagnosing scheduling issues.
 - **Stack Traces**: Detailed information about the app's state at the time of the crash, including the sequence of function calls. Stack traces do not contain any identifiable data beyond what is listed above.
+
+### Firebase Cloud Run
+
+Helios uses Firebase Cloud Run to handle data deletion requests. Firebase Cloud Run Privacy Details can be found in Firebase's [Privacy and Security Policy](https://firebase.google.com/support/privacy). Cloud Run uses iOS App Check and Android's Play Integrity to anonymously authenticate user requests for data deletion. The mechanism both App Check and Play Integrity use for this authentication is linked to both your account with your App Store/Play Store, as well as your device's IP Address. The Helios team does not collect this data. Helios uses what's known as Pseudonymous identifiers, essentially we randomly generate a number to link your Crashlytics data to this random identifier. Because the Crashlytics data is linked to your device identifier, it can't be fully considered anonymous. Instead it is pseudonymous, and therefore must be disclosed as such. This random identifier is necessary so that when a request for data deletion is sent, the anonymous Firebase data can be linked to the request.
+
+Cloud Run only activates the moment a user disables Crashlytics or when a user manually sends a deletion request. Your data is only used to send the data deletion request and is not stored by Helios. //TODO: Figure out if cloud run stores the authentication data and for how long.
+
+To Summarize, Cloud Run accesses the following data:
+- **Device Identifier**: This is your device IP address and is used by iOS App Integrity and Android Play Integrity to authenticate your request to Cloud Run. 
 
 ## Data Retention
 
